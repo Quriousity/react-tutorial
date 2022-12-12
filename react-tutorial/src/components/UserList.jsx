@@ -26,9 +26,12 @@ function UserList() {
   ];
   return (
     <div>
-      <User user={users[0]} />
-      <User user={users[1]} />
-      <User user={users[2]} />
+      {users.map(user => (
+        // user 객체에 참조할 만한 index가 있을 때
+        <User user={user} key={user.id}/>
+        // user 객체에 참조할 만한 index가 없을 때
+        // <User user={user} key={index} />
+      ))}
     </div>
   );
 }

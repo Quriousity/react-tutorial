@@ -1,11 +1,11 @@
 import Wrapper from './components/Wrapper';
-import InputSample from './components/InputSample';
+import UserList from './components/UserList';
 
 function App() {
   return (
     <div>
       <Wrapper>
-        <InputSample />
+        <UserList />
       </Wrapper>
     </div>
   );

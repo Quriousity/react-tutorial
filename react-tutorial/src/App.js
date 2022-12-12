@@ -1,11 +1,11 @@
 import Wrapper from './components/Wrapper';
-import Counter from './components/Counter';
+import InputSample from './components/InputSample';
 
 function App() {
   return (
     <div>
       <Wrapper>
-        <Counter />
+        <InputSample />
       </Wrapper>
     </div>
   );

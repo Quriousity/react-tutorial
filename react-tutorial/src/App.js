@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <Hello name="react" color="tomato"/>
-      <Hello />
+      <Hello name="Javascript"/>
       <Hello />
     </div>
   );
